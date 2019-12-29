@@ -44,3 +44,7 @@ div.desc {
   position: sticky;
   top: 0;
 }
+
+.black-background {
+  background-color: black;
+}
