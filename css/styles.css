@@ -4,6 +4,11 @@ a {
   font-weight:bold;
 }
 
+h2 {
+	font-weight:normal;
+	font-size: 17px;
+}
+
 .vertical-align {
 	vertical-align: middle;
 }
