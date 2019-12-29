@@ -39,9 +39,8 @@ div.desc {
   text-align: center;
 }
 
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
+.fixed-element {
+  position: fixed;
   top: 0;
 }
 
