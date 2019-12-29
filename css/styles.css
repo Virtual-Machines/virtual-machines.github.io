@@ -41,6 +41,8 @@ div.desc {
 
 .fixed-element {
   position: fixed;
+  top:0;
+  right:0;
 }
 
 .black-background {
