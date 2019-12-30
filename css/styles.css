@@ -24,9 +24,13 @@ div.gallery {
   width: 48%;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-  background: #7FDBFF;
+@media (max-width: 600px) {
+  div.gallery {
+	margin: 3px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 95%;
+	}
 }
 
 div.gallery img {
@@ -47,4 +51,28 @@ div.desc {
 
 .black-background {
   background-color: black;
+}
+
+.gallery li {
+	margin: 0 0 1% 0;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-blue {
+	background-color: #008CBA;
 }
