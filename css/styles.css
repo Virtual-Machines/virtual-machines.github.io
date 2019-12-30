@@ -51,15 +51,7 @@ div.desc {
 }
 
 .panel-body {
-	margin-top: 175px;
-}
-
-.share-buttons {
-  background-color: black;
-  width:225px;
-  text-align: center;
-  margin: 0 auto;
-  
+	margin-top: 120px;
 }
 
 .gallery li {
