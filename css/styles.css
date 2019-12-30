@@ -30,7 +30,7 @@ div.gallery {
 	border: 1px solid #ccc;
 	float: left;
 	width: 95%;
-	}
+  }
 }
 
 div.gallery img {
@@ -43,14 +43,23 @@ div.desc {
   text-align: center;
 }
 
-.fixed-element {
+.panel-head {
+  background-color: white;
   position: fixed;
-  top:0;
-  right:0;
+  top: 0;
+  width: 100%;
 }
 
-.black-background {
+.panel-body {
+	margin-top: 175px;
+}
+
+.share-buttons {
   background-color: black;
+  width:225px;
+  text-align: center;
+  margin: 0 auto;
+  
 }
 
 .gallery li {
