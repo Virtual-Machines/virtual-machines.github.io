@@ -206,17 +206,46 @@
 		</div>
 		
 		<div class="gallery" itemscope itemtype="http://schema.org/SoftwareApplication">
-			<a href="/VirtualBox-Tutorials" target="_blank">
-				<img src="img/Tutorials.png" alt="VirtualBox Tutorials" width="600" height="400">
-			</a>
-			<div class="desc"><strong itemprop="name">VirtualBox Tutorials</strong>
-				<ul class="text-left">
-					<li>Import OVA VirtualBox</li>
-					<li>NAT Port Forwarding VirtualBox</li>
-					<li>Shared Folders VirtualBox</li>
-					<li>And much more coming soon!</li>
-				</ul>
-				<a rel="nofollow" target="_blank" class="button  button-blue" href="https://www.youtube.com/channel/UCy9CVFDFCBjcZ22VPBeJKWA">VIRTUAL MACHINES YOUTUBE</a>
+			<video controls src="video/ImportOva.mp4" width="600" height="400"></video>
+			<div class="desc"><strong itemprop="name">Import OVA VirtualBox step by step. This is useful to work easily with virtual machines</strong>
+				<ol  class="text-left">
+					<li>File -> Import Appliance (or Control + I)</li>
+					<li>Appliance to import dialog is shown</li>
+					<li>Click on upload button and select file</li>
+					<li>Selected file path is shown. Click Next</li>
+					<li>You can modify settings like RAM (optional) and click Import</li>
+					<li>Wait</li>
+					<li>Run your imported machine with Start button</li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="gallery" itemscope itemtype="http://schema.org/SoftwareApplication">
+			<video controls src="video/NATPortForwarding.mp4" width="600" height="400"></video>
+			<div class="desc"><strong itemprop="name">NAT Port Forwarding VirtualBox. How to access to a guest served website from host</strong>
+				<ol class="text-left">
+					<li>Click Settings when a virtual machine is selected</li>
+					<li>Go to Network tab</li>
+					<li>Click on Advanced -> Port Forwarding button</li>
+					<li>Add a new rule using right green plus (+ icon)</li>
+					<li>Set host and guest ports (IP are optional and not needed on localhost) and click OK button</li>
+					<li>Serve a web application on guest using the port previously configured as “Guest Port”. Example: python3 -m http.server 8080</li>
+					<li>Finally, enter on a host web browser using “Host port” of localhost. Example: localhost:8080</li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="gallery" itemscope itemtype="http://schema.org/SoftwareApplication">
+			<video controls src="video/SharedFolders.mp4" width="600" height="400"></video>
+			<div class="desc"><strong itemprop="name">Shared Folders VirtualBox. How to transfer files between host and guest</strong>
+				<ol class="text-left">
+					<li>Click on Settings</li>
+					<li>Go to Shared Folders tab and click right green plus button</li>
+					<li>Select Folder Path on host using arrow or type it manually.</li>
+					<li>Set Folder name. Check Auto-mount. Click OK.</li>
+					<li>Click OK</li>
+					<li>Click on Start to run your machine with a shared folder</li>
+				</ol>
 			</div>
 		</div>
 	</div>
