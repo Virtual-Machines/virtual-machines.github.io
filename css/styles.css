@@ -88,8 +88,9 @@ div.desc {
 
 .logo {
 	transition: transform .8s ease-in-out;
+	cursor:pointer;
 }
 
-.logo:hover {
+.logo:hover, logo:active {
 	transform: rotate(360deg);
 }
