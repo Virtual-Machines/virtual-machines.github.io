@@ -35,7 +35,7 @@ div.gallery {
 
 div.gallery img , div.gallery video{
   width: 100%;
-  height: auto;
+  height: 300px;
   cursor: pointer;
 }
 
@@ -79,7 +79,6 @@ div.desc {
 }
 
 .button-blue {
-	color:white;
 	background-color: #008CBA;
 }
 
