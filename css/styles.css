@@ -33,7 +33,7 @@ div.gallery {
 	}
 }
 
-div.gallery img {
+div.gallery img , div.gallery video{
   width: 100%;
   height: 300px;
 }
