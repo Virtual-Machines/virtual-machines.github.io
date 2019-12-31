@@ -84,6 +84,4 @@ div.desc {
 
 .button-blue:hover {
 	background-color: #005CBA;
-	box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-	transform: translateY(-0.25em);
 }
