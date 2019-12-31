@@ -87,8 +87,7 @@ div.desc {
 }
 
 .logo {
-	transition: transform .8s ease-in-out;
-	cursor:pointer;
+	transition: transform .6s ease-in-out;
 }
 
 .logo:hover {
