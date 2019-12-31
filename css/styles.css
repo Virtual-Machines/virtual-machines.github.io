@@ -85,3 +85,11 @@ div.desc {
 .button-blue:hover {
 	background-color: #00ACBA;
 }
+
+.logo {
+	transition: transform .8s ease-in-out;
+}
+
+.logo:hover {
+	transform: rotate(360deg);
+}
