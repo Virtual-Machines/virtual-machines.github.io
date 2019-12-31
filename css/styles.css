@@ -1,12 +1,12 @@
 a {
-  text-decoration: none;
-  color: black;
-  font-weight:bold;
+ text-decoration: none;
+ color: black;
+ font-weight:bold;
 }
 
 h2 {
-	font-weight:normal;
-	font-size: 17px;
+ font-weight:normal;
+ font-size: 17px;
 }
 
 .vertical-align {
@@ -18,19 +18,19 @@ h2 {
 }
 
 div.gallery {
-  margin: 3px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 48%;
+	margin: 3px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 48%;
 }
 
 @media (max-width: 600px) {
   div.gallery {
-	margin: 3px;
-	border: 1px solid #ccc;
-	float: left;
-	width: 95%;
-  }
+		margin: 3px;
+		border: 1px solid #ccc;
+		float: left;
+		width: 95%;
+	}
 }
 
 div.gallery img {
@@ -75,7 +75,7 @@ div.desc {
 }
 
 .button:active {
-  transform: translateY(4px);
+	transform: translateY(4px);
 }
 
 .button-blue {
@@ -85,5 +85,5 @@ div.desc {
 .button-blue:hover {
 	background-color: #005CBA;
 	box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  	transform: translateY(-0.25em);
+	transform: translateY(-0.25em);
 }
