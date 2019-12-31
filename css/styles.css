@@ -74,13 +74,14 @@ div.desc {
   cursor: pointer;
 }
 
-.button:hover {background-color: #3e8e41}
-
 .button:active {
-  background-color: #3e8e41;
   transform: translateY(4px);
 }
 
 .button-blue {
 	background-color: #008CBA;
+}
+
+.button-blue:hover {
+	background-color: #005CBA;
 }
