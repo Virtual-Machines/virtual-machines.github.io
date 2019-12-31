@@ -91,6 +91,6 @@ div.desc {
 	cursor:pointer;
 }
 
-.logo:hover, .logo:active {
+.logo:hover {
 	transform: rotate(360deg);
 }
