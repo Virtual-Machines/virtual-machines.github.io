@@ -93,3 +93,10 @@ div.desc {
 .logo:hover {
 	transform: rotate(360deg);
 }
+
+.share-buttons {
+  background-color: black;
+  width:225px;
+  text-align: center;
+  margin: 0 auto;
+}
